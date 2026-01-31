@@ -7,5 +7,6 @@ export default defineConfig({
         inline: ['vitest-package-exports'],
       },
     },
+    exclude: ['vendor/**', 'node_modules/**'],
   },
 })
