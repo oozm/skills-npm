@@ -38,13 +38,14 @@ catalogs:
     cac: ^6.7.14
     gray-matter: ^4.0.3
     picocolors: ^1.1.1
+    tinyglobby: ^0.2.15
     unconfig: ^7.4.2
     xdg-basedir: ^5.1.0
+    yaml: ^2.8.2
   testing:
     tinyexec: ^1.0.2
     vitest: ^4.0.18
     vitest-package-exports: ^1.1.2
-    yaml: ^2.8.2
   types:
     '@types/node': ^25.1.0
 onlyBuiltDependencies:
