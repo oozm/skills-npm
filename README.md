@@ -90,7 +90,7 @@ export default defineConfig({
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
 | `cwd` | `string` | Workspace root | Current working directory |
-| `source` | `'node_modules' \| 'package.json'` | `'node_modules'` | Source to discover skills from |
+| `source` | `'node_modules' \| 'package.json'` | `'package.json'` | Source to discover skills from |
 | `agents` | `string \| string[]` | All detected | Target agents to install to |
 | `recursive` | `boolean` | `false` | Scan recursively for monorepo packages |
 | `gitignore` | `boolean` | `true` | Whether to update .gitignore |
@@ -107,16 +107,16 @@ export default defineConfig({
 skills-npm [options]
 
 Options:
-  --cwd <cwd>           Current working directory
-  -s, --source <source> Source to discover skills from (default: 'node_modules')
-  -a, --agents          Comma-separated list of agents to install to
-  -r, --recursive       Scan recursively for monorepo packages
-  --ignore-paths <paths> Ignore paths for searching package.json
-  --gitignore           Whether to update .gitignore (default: true)
-  --yes                 Skip confirmation prompts
-  --dry-run             Show what would be done without making changes
-  -h, --help            Display help
-  -v, --version         Display version
+  --cwd <cwd>             Current working directory
+  -s, --source <source>   Source to discover skills from (default: 'package.json')
+  -a, --agents            Comma-separated list of agents to install to
+  -r, --recursive         Scan recursively for monorepo packages
+  --ignore-paths <paths>  Ignore paths for searching package.json
+  --gitignore             Whether to update .gitignore (default: true)
+  --yes                   Skip confirmation prompts
+  --dry-run               Show what would be done without making changes
+  -h, --help              Display help
+  -v, --version           Display version
 ```
 
 ## For Package Authors
