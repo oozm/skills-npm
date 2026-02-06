@@ -56,12 +56,8 @@ You can create a `skills-npm.config.ts` file in your project root to configure t
 import { defineConfig } from 'skills-npm'
 
 export default defineConfig({
-  // Source to discover skills from: 'node_modules' or 'package.json'
-  source: 'package.json',
   // Target specific agents (defaults to all detected agents)
   agents: ['cursor', 'windsurf'],
-  // Scan recursively for monorepo packages (default: false)
-  recursive: false,
   // Whether to update .gitignore (default: true)
   gitignore: true,
   // Skip confirmation prompts (default: false)
