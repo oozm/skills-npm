@@ -64,13 +64,6 @@ export default defineConfig({
   yes: false,
   // Dry run mode (default: false)
   dryRun: false,
-  // Include specific packages or skills
-  include: [
-    // Include all skills from a package
-    '@some/package',
-    // Include specific skills from a package
-    { package: '@slidev/cli', skills: ['presenter-mode'] },
-  ],
   // Exclude specific packages or skills
   exclude: [
     // Exclude all skills from a package
